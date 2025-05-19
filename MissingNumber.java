@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MissingNumber {
-    static int mssingNumber(int[] nums) {
+    static int missingNumber(int[] nums) {
         int[] tempArr = Arrays.copyOf(nums, nums.length);
         Arrays.sort(tempArr);
         int res = tempArr[tempArr.length - 1] + 1;
